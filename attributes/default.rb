@@ -26,5 +26,7 @@ override['mongodb']['ruby_gems']['mongo'] = '~> 1.12'
 
 # redis
 default['crowi']['redis']['host'] = 'localhost'
-default['crowi']['redis']['port'] = '6397' # redis default port.
+default['crowi']['redis']['port'] = '6379' # redis default port.
 
+# nginx
+default['crowi']['fqdn'] = node['fqdn']
