@@ -2,7 +2,7 @@
 # crowi
 default["crowi"]["version"] = "master"
 default["crowi"]["base_dir"] = "/srv/www"
-default["crowi"]["owner"] = "www-data"
+default["crowi"]["owner"] = "crowi"
 default["crowi"]["group"] = "www-data"
 
 default["crowi"]["env"] = "production"

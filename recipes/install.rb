@@ -1,7 +1,13 @@
+#TODO
+user node["crowi"]["owner"] do
+  system true
+  home "#{node["crowi"]["base_dir"]}/#{node["crowi"]["owner"]}"
+  shell "/bin/sh"
+end
 
 directory node["crowi"]["base_dir"] do
-  owner node["crowi"]["owner"]
-  group node["crowi"]["group"]
+  owner "www-data"
+  group "www-data"
   mode 02775
   recursive true
 end
