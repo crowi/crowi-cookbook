@@ -25,8 +25,11 @@ Install and configure Crowi.
 
 ```
 {
+    "crowi": {
+        "fqdn": "your crowi domain"
+    },
     "run_list": [
-        "crowi::standalone"
+        "recipe[crowi::standalone]"
     ]
 }
 ```
