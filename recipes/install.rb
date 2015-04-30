@@ -1,4 +1,3 @@
-#TODO
 user node["crowi"]["owner"] do
   system true
   home "#{node["crowi"]["base_dir"]}/#{node["crowi"]["owner"]}"
